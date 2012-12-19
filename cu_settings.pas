@@ -6,7 +6,7 @@ interface
 
 uses
   Classes, SysUtils, FileUtil, Forms, Controls, Graphics, Dialogs, StdCtrls,
-  Buttons, LCLIntf, ActnList, clipupload;
+  Buttons, LCLIntf;
 
 type
 
@@ -24,12 +24,11 @@ type
     { private declarations }
   public
     { public declarations }
-    HideDonateButton : boolean
+    HideDonateButton : Boolean;
   end;
 
 var
   settingsform: Tsettingsform;
-  settings : clipupload.TClipUpload;
 implementation
 
 {$R *.lfm}

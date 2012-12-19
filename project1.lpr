@@ -7,8 +7,7 @@ uses
   cthreads,
   {$ENDIF}{$ENDIF}
   Interfaces, // this includes the LCL widgetset
-  Forms, main, cu_settings, clipupload
-  { you can add units after this };
+  Forms, main, cu_settings, cu_uploadlog;
 
 {$R *.res}
 
@@ -18,6 +17,7 @@ begin
   Application.Initialize;
   Application.CreateForm(TmainForm, mainForm);
   Application.CreateForm(Tsettingsform, settingsform);
+  Application.CreateForm(Tuploadlogform, uploadlogform);
   Application.Run;
 end.
 

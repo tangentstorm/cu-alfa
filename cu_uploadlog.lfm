@@ -1,0 +1,8 @@
+object uploadlogform: Tuploadlogform
+  Left = 730
+  Height = 240
+  Top = 114
+  Width = 320
+  Caption = 'uploadlogform'
+  LCLVersion = '1.0.4.0'
+end

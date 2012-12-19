@@ -1,7 +1,7 @@
 object settingsform: Tsettingsform
-  Left = 269
+  Left = 937
   Height = 346
-  Top = 194
+  Top = 192
   Width = 323
   BorderIcons = [biSystemMenu]
   BorderStyle = bsDialog

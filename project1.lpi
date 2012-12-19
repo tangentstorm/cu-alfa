@@ -56,9 +56,11 @@
         <UnitName Value="cu_settings"/>
       </Unit2>
       <Unit3>
-        <Filename Value="clipupload.pas"/>
+        <Filename Value="cu_uploadlog.pas"/>
         <IsPartOfProject Value="True"/>
-        <UnitName Value="clipupload"/>
+        <ComponentName Value="uploadlogform"/>
+        <ResourceBaseClass Value="Form"/>
+        <UnitName Value="cu_uploadlog"/>
       </Unit3>
     </Units>
   </ProjectOptions>

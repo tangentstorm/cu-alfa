@@ -1,0 +1,54 @@
+<?xml version="1.0"?>
+<CONFIG>
+  <grid version="3">
+    <saveoptions create="True" position="True" content="True"/>
+    <design columncount="3" rowcount="6" fixedcols="0" fixedrows="1" defaultcolwidth="64" defaultRowHeight="22">
+      <options>
+        <goFixedVertLine value="True"/>
+        <goFixedHorzLine value="True"/>
+        <goVertLine value="True"/>
+        <goHorzLine value="True"/>
+        <goRangeSelect value="True"/>
+        <goDrawFocusSelected value="False"/>
+        <goRowSizing value="False"/>
+        <goColSizing value="False"/>
+        <goRowMoving value="False"/>
+        <goColMoving value="False"/>
+        <goEditing value="True"/>
+        <goTabs value="False"/>
+        <goRowSelect value="True"/>
+        <goAlwaysShowEditor value="False"/>
+        <goThumbTracking value="False"/>
+        <goColSpanning value="False"/>
+        <goRelaxedRowSelect value="False"/>
+        <goDblClickAutoSize value="False"/>
+        <goSmoothScroll value="True"/>
+      </options>
+    </design>
+    <position topleftcol="1" topleftrow="1" col="1" row="1">
+      <selection left="1" top="1" right="1" bottom="1"/>
+    </position>
+    <content>
+      <cells cellcount="18">
+        <cell1 column="0" row="0" text="Type"/>
+        <cell2 column="0" row="1" text="Imgur"/>
+        <cell3 column="0" row="2" text="FTP"/>
+        <cell4 column="0" row="3" text="HTTP Post"/>
+        <cell5 column="0" row="4" text="Dropbox"/>
+		<cell6 column="0" row="5" text="Dropbox"/>
+        <cell7 column="1" row="0" text="Author"/>
+        <cell8 column="1" row="1" text="Tim Schoonman"/>
+        <cell9 column="1" row="2" text="Tim Schoonman"/>
+        <cell10 column="1" row="3" text="Tim Schoonman"/>
+        <cell11 column="1" row="4" text="Tim Schoonman"/>
+		<cell12 column="1" row="5" text="Tim Schoonman"/>
+		<cell13 column="2" row="0" text="Enabled"/>
+		<cell14 column="2" row="1" text="Enabled"/>
+		<cell15 column="2" row="2" text="Enabled"/>
+		<cell16 column="2" row="3" text="Enabled"/>
+		<cell17 column="2" row="4" text="Enabled"/>
+		<cell18 column="2" row="5" text="Enabled"/>
+      </cells>
+    </content>
+  </grid>
+</CONFIG>
