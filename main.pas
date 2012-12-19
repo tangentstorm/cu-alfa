@@ -73,10 +73,6 @@ end;
 
 procedure TmainForm.FormWindowStateChange(Sender: TObject);
 begin
-   if settings.GetHideDonateButton = True then
-      Image1.Visible:=False
-   else
-      Image1.Visible:=True;
    case WindowState of
         wsMinimized: mainform_trayicon.Visible:=true;
         wsNormal   : mainform_trayicon.Visible:=false;
@@ -91,7 +87,11 @@ end;
 
 procedure TmainForm.mainform_settingsClick(Sender: TObject);
 begin
-  settingsform.Show;
+  // modal waits for you to finish with the child form
+  // before allowing you back into the main form.
+  settingsform.ShowModal;
+  // and then when done:
+  image1.Visible := not settingsform.HideDonateButton
 end;
 
 end.

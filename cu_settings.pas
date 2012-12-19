@@ -24,6 +24,7 @@ type
     { private declarations }
   public
     { public declarations }
+    HideDonateButton : boolean
   end;
 
 var
@@ -37,15 +38,14 @@ implementation
 
 procedure Tsettingsform.settingsform_cancelClick(Sender: TObject);
 begin
-  settingsform.Close;
+  self.Close;
 end;
 
 
 procedure Tsettingsform.settingsform_okClick(Sender: TObject);
 begin
-  if settingsform_hidedonate.Checked = True then settings.SetHideDonateButton(True);
-  if settingsform_hidedonate.Checked = False then settings.SetHideDonateButton(False);
-  settingsform.Close;
+  self.HideDonateButton := self.settingsform_hidedonate.Checked;
+  self.Close;
 end;
 
 
